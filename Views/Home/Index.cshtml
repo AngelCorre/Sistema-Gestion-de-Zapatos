@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h1>Bienvenido a la Gestión de Zapateria</h1>
+
+    <p style="margin-top:50px">Página para la gestión de los distintos zapatos que podría tener una zapateria</p>
+
+    <div class="d-flex justify-content-evenly mt-10" style="margin-top:50px">
+
+        <div class="form-group">
+            <button class="btn btn-light" onclick="location.href='@Url.Action("Index", "Producto")'">Productos</button>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-light" onclick="location.href='@Url.Action("Index", "Categoria")'">Categorias</button>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-light" onclick="location.href='@Url.Action("Index", "Marca")'">Marcas</button>
+        </div>
+
+    </div>
+</div>

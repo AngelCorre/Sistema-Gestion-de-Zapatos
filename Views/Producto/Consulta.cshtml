@@ -1,0 +1,45 @@
+﻿@model GestionZapateria.Models.Producto
+
+@{
+    var listProducto = (List<Producto>)ViewData["ListProducto"];
+    ViewData["Title"] = "Index";
+}
+
+<h1>Consulta</h1>
+
+<h4>Productos</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Index", "Producto", FormMethod.Get))
+        {
+
+            @foreach (var list in listProducto)
+            {
+
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Modelo</th>
+                            <th scope="col">Talla</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">@list.Id_Producto</th>
+                            <td>@list.Modelo</td>
+                            <td>@list.Talla</td>
+                            <td>@list.Precio</td>
+                            <td><input type="submit" name="id_Producto" value="@list.Id_Producto" class="btn btn-warning buscar" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            }
+
+        }
+    </div>
+</div>

@@ -1,0 +1,52 @@
+﻿@model GestionZapateria.Models.Categoria
+
+@{
+    ViewData["Title"] = "GestionCategorias";
+}
+
+<h1>Gestion de Categorias</h1>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Index", "Categoria", FormMethod.Post))
+        {
+
+
+            <div class="form-group" style="padding:10px">
+                <label asp-for="Id_Categoria" class="control-label"></label>
+                <input asp-for="Id_Categoria" class="form-control" />
+
+            </div>
+
+            <div class="form-group" style="padding:10px">
+                <label asp-for="Nombre_Categoria" class="control-label"></label>
+                <input asp-for="Nombre_Categoria" class="form-control" />
+
+            </div>
+
+
+            <div class="d-flex justify-content-evenly mt-10" style="margin-top:10px">
+
+                <div class="form-group">
+                    <input type="submit" name="accion" value="Buscar" class="btn btn-warning buscar" />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" name="accion" value="Actualizar" class="btn btn-primary actualizar" />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" name="accion" value="Eliminar" class="btn btn-danger eliminar" />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" name="accion" value="Insertar" class="btn btn-success insertar" />
+                </div>
+
+            </div>
+
+        }
+    </div>
+</div>
+
+

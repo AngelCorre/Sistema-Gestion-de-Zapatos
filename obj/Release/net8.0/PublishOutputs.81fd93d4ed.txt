@@ -1,0 +1,8 @@
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\GestionZapateria.exe
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\GestionZapateria.dll
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\GestionZapateria.deps.json
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\GestionZapateria.runtimeconfig.json
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\GestionZapateria.pdb
+D:\pelon\UPT\5to Cuatrimestre\Cliente-Servidor\GestionZapateria\obj\Release\net8.0\PubTmp\Out\Npgsql.dll

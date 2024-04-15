@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Npgsql">
+      <HintPath>..\CRUD\bin\Debug\net8.0\Npgsql.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
