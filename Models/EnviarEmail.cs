@@ -9,8 +9,8 @@ namespace GestionZapateria.Models
         public bool enviaMail(string tipo, int id, string subject)
         {
 
-            string From = "pelonchascorr12@gmail.com"; //de quien procede, puede ser un alias
-            string[] To = { "erickadrian255@gmail.com", "angelcorr435@gmail.com", "pelonchascorr12@gmail.com" };  //a quien vamos a enviar el mail
+            string From = "correoqueenvia@gmail.com"; //de quien procede, puede ser un alias
+            string[] To = { "correosalosqueenvia@gmail.com" };  //a quien vamos a enviar el mail
             string Subject = "Tipo: " + tipo + " ,Id: " + id + " ," + subject;  //mensaje
             string Message = "";
 
@@ -57,7 +57,7 @@ namespace GestionZapateria.Models
                     //este objeto recibe el sujeto o persona que envia el mail,
                     //la direccion de procedencia, el asunto y el mensaje
                     Email = new MailMessage(From, To[i], Subject, Message);
-                    MailAddress copy = new MailAddress("ecastellanosa1992@gmail.com");
+                    MailAddress copy = new MailAddress("correorespaldo@gmail.com");
                     Email.Bcc.Add(copy);
 
 
@@ -73,7 +73,7 @@ namespace GestionZapateria.Models
                     smtpMail.UseDefaultCredentials = false; //le decimos que no utilice la credencial por defecto
                     smtpMail.Host = "smtp.gmail.com"; //agregamos el servidor smtp
                     smtpMail.Port = 587; //le asignamos el puerto
-                    smtpMail.Credentials = new System.Net.NetworkCredential("pelonchascorr12@gmail.com", ""); //agregamos nuestro usuario y pass de correo
+                    smtpMail.Credentials = new System.Net.NetworkCredential("correo@gmail.com", "contraseña"); //agregamos nuestro usuario y pass de correo
 
 
                     //enviamos el mail
