@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\pelon\\UPT\\5to Cuatrimestre\\Cliente-Servidor\\GestionZapateria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB70A74A-9230-49F7-B53F-94518633ECCD}|GestionZapateria.csproj|d:\\pelon\\upt\\5to cuatrimestre\\cliente-servidor\\gestionzapateria\\models\\enviaremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB70A74A-9230-49F7-B53F-94518633ECCD}|GestionZapateria.csproj|solutionrelative:models\\enviaremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB70A74A-9230-49F7-B53F-94518633ECCD}|GestionZapateria.csproj|d:\\pelon\\upt\\5to cuatrimestre\\cliente-servidor\\gestionzapateria\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB70A74A-9230-49F7-B53F-94518633ECCD}|GestionZapateria.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnviarEmail.cs",
+              "DocumentMoniker": "D:\\pelon\\UPT\\5to Cuatrimestre\\Cliente-Servidor\\GestionZapateria\\Models\\EnviarEmail.cs",
+              "RelativeDocumentMoniker": "Models\\EnviarEmail.cs",
+              "ToolTip": "D:\\pelon\\UPT\\5to Cuatrimestre\\Cliente-Servidor\\GestionZapateria\\Models\\EnviarEmail.cs",
+              "RelativeToolTip": "Models\\EnviarEmail.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEsAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:19:35.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Producto.cs",
               "DocumentMoniker": "D:\\pelon\\UPT\\5to Cuatrimestre\\Cliente-Servidor\\GestionZapateria\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Models\\Producto.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Marca.cs",
               "DocumentMoniker": "D:\\pelon\\UPT\\5to Cuatrimestre\\Cliente-Servidor\\GestionZapateria\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "Models\\Marca.cs",

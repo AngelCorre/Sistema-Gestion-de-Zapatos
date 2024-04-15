@@ -73,7 +73,7 @@ namespace GestionZapateria.Models
                     smtpMail.UseDefaultCredentials = false; //le decimos que no utilice la credencial por defecto
                     smtpMail.Host = "smtp.gmail.com"; //agregamos el servidor smtp
                     smtpMail.Port = 587; //le asignamos el puerto
-                    smtpMail.Credentials = new System.Net.NetworkCredential("pelonchascorr12@gmail.com", "dalb cfxi fnbk uxxy"); //agregamos nuestro usuario y pass de correo
+                    smtpMail.Credentials = new System.Net.NetworkCredential("pelonchascorr12@gmail.com", ""); //agregamos nuestro usuario y pass de correo
 
 
                     //enviamos el mail

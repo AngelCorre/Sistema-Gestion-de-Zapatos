@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionZapateria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a79cf957bdfb340ae126e0dc3f1e25d1ebccb870")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionZapateria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionZapateria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
